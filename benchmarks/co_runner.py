@@ -22,7 +22,7 @@ class Sysbench:
 
     @staticmethod
     def stop():
-        cmd("sudo kill -KILL $(pgrep sysbench)")
+        cmd("set -x; sudo kill -KILL $(pgrep sysbench)")
 
     def run(self):
         # TODO: add cpu share
@@ -39,14 +39,13 @@ class Sysbench:
         cmd(cmd_str)
         # wait a bit for it to start running
         time.sleep(3)
-        
+
         print(">> sysbench running..")
         return self
 
     def wait(self, interval=10):
         time.sleep(interval)
         return self
-
 
 def make_signal_handler(f):
     def handler(sig, frame):
