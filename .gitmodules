@@ -1,0 +1,3 @@
+[submodule "cgroups"]
+	path = cgroups
+	url = https://github.com/containerd/cgroups.git
