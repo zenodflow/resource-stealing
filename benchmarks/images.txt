@@ -1,0 +1,5 @@
+library/httpd
+library/gcc
+library/ubuntu
+library/python
+library/nginx
