@@ -1,7 +1,20 @@
+import os
 import subprocess
 import sys
 import time
+import uuid
 from functools import wraps
+
+_dir = os.path.dirname(os.path.realpath(__file__))
+
+
+def root_dir():
+    return _dir
+
+
+def uuid_str(digit=8):
+    return str(uuid.uuid4())[:digit]
+
 
 def cmd(cmd, out=False, quiet=False, async_=False, executable='/bin/bash'):
     """Executes a subprocess running a shell command and returns the output."""
@@ -47,6 +60,7 @@ def timed(f):
         return result
 
     return wrapper
+
 
 if __name__ == "__main__":
     cmd("echo happy")

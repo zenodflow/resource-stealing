@@ -7,7 +7,7 @@ OUT_DIR ?= _output
 BIN_DIR := $(OUT_DIR)/bin
 RELEASE_DIR := $(OUT_DIR)/$(THIS_VER)
 # TODO
-BINARY :=
+BINARY := lend
 # TODO
 CMD_ENTRY := lend.go
 

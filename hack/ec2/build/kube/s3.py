@@ -103,11 +103,23 @@ def get_addr_from_bucket_key(bucket, key):
 
 
 if __name__ == '__main__':
-    delete_buckets(lambda x: x in {"24c71-state-store",
-                                   "7e207-state-store",
-                                   "90f5f-state-store",
-                                   "91fd5-state-store",
-                                   "99860-state-store",
-                                   "99c79-state-store",
-                                   "e9f44-state-store",
-                                   "ce0ad-state-store"})
+    import pprint as pp
+    # pp.pprint(list_buckets())
+    # exit()
+    delete_buckets(lambda x: x in {'02fc8-state-store',
+                                   '103d3-state-store',
+                                   '2a80e-state-store',
+                                   '302d9-state-store',
+                                   '3e0e6-state-store',
+                                   '41206-state-store',
+                                   '443ab-state-store',
+                                   '60ac5-state-store',
+                                   '60cae-state-store',
+                                   '61621-state-store',
+                                   '692cf-state-store',
+                                   '79398-state-store',
+                                   'a490c-state-store',
+                                   'b5ac1-state-store',
+                                   'c0b86-state-store',
+                                   'e747c-state-store',
+                                   })
