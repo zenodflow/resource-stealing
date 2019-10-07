@@ -39,6 +39,42 @@
 			"revisionTime": "2019-06-11T06:18:53Z"
 		},
 		{
+			"checksumSHA1": "N4/qKM2jfGQV/qczyKIc4+qhCjw=",
+			"path": "github.com/opencontainers/runc/libcontainer/cgroups",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
+			"checksumSHA1": "EPBxpNuaIMxUCUT0YNGNQ6WA6Y0=",
+			"path": "github.com/opencontainers/runc/libcontainer/cgroups/fs",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
+			"checksumSHA1": "jEw9J/VhJ+2EDuJRV3tqaW2ITKg=",
+			"path": "github.com/opencontainers/runc/libcontainer/configs",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
+			"checksumSHA1": "QBh0sTIf3BIvp9r2Z8U296a/Zho=",
+			"path": "github.com/opencontainers/runc/libcontainer/system",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
+			"checksumSHA1": "qMS+tHXhZXB7nhI8AgqzLF5KK0I=",
+			"path": "github.com/opencontainers/runc/libcontainer/user",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
+			"checksumSHA1": "y9Q+vU4wnpIuMl2OL3OIO8d+Mok=",
+			"path": "github.com/opencontainers/runc/libcontainer/utils",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
+		},
+		{
 			"checksumSHA1": "LocsyJEtNVlpow4fvR+UZGxxRD8=",
 			"path": "github.com/opencontainers/runtime-spec/specs-go",
 			"revision": "c9a5f6194441d1dcaf8b0651841f6cace6a8fd46",
@@ -49,6 +85,13 @@
 			"path": "github.com/pkg/errors",
 			"revision": "27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7",
 			"revisionTime": "2019-02-27T00:00:51Z"
+		},
+		{
+			"checksumSHA1": "S+sQGEnDd/CqY0RQTLpw7LVcSv8=",
+			"origin": "github.com/opencontainers/runc/vendor/github.com/sirupsen/logrus",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "84373aaa560b3f14cfda210b2f34ca14fd4b1fce",
+			"revisionTime": "2019-09-26T15:03:03Z"
 		},
 		{
 			"checksumSHA1": "q9Tg6to9VclHnde0BKgW1WF2ItQ=",
